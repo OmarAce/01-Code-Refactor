@@ -86,17 +86,17 @@ p {
     background-color: #2589bd;
 }
 
-.services {
+.benefits-list {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.services h3 {
+.benefits-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.services img {
+.benefits-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
