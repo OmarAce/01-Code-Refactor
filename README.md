@@ -2,7 +2,7 @@
 
 ## Description
 
-Client, Horiseon Consulting Services approached me with the opportunity to make their website more accessible to all who would visit and in general refactoring the code. Now anyone with a visual impairment will have an easier time navigating the website; and I have received practical experience in my 
+Client, Horiseon Consulting Services, approached me with the opportunity to make their website more accessible to all who would visit and in general refactoring the code. Now anyone with a visual impairment will have an easier time navigating the website; and I have received practical experience in my 
 HTML and CSS.
 
 ## Assignment
