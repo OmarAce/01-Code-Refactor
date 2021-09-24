@@ -1,4 +1,4 @@
-/* GENERAL WEBPAGE ELEMENTS */
+/* ----- GENERAL WEBPAGE ELEMENTS / UNIVERSAL SELECTOR ----- */
 
 * {
     box-sizing: border-box;
@@ -6,11 +6,15 @@
     margin: 0;
 }
 
+/* CHANGE BODY BACKGROUND COLOR */
+
 body {
     background-color: #d9dcd6;
 }
 
-/* HEADER ELEMENTS */
+/* ----- HEADER ELEMENTS ----- */
+
+/* CHANGE STYLING OF HEADER */
 
 .header {
     padding: 20px;
@@ -19,14 +23,14 @@ body {
     color: #ffffff;
 }
 
+/* CHANGE DISPLAY AND FONT SIZE OF H1 TAG WITHIN HEADER */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+/* MARGIN AND FORMAT OF HEADER  */
 
 .header div {
     padding-top: 15px;
@@ -36,36 +40,55 @@ body {
     font-size: 20px;
 }
 
+/* CHANGE COLOR OF SEO WITHIN HEADER */
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* CHANGE LIST TYPE OF HEADER */
+
 .header div ul {
     list-style-type: none;
 }
+
+/* CHANGE DISPLAY TYPE AND MARGIN OF LIST ITEMS WITHIN HEADER */
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* STYLING ELEMENTS */
+/* ----- WEB PAGE STYLING ELEMENTS ----- */
+
+/* ANCHOR COLOR */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* FONT SIZE OF PARAGRAPH TAG */
+
 p {
     font-size: 16px;
 }
+
+/* CLASS TO FLOAT ELEMENTS LEFT */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* CLASS TO FLOAT ELEMENTS RIGHT */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* ----- CHANGE DIMENSIONS AND POSITION OF WEBPAGE MAIN IMAGE ----- */
 
 .hero {
     height: 800px;
@@ -76,13 +99,17 @@ p {
     background-position: center;
 }
 
-/* MAIN CONTENT ELEMENTS*/
+/* ----- MAIN CONTENT ELEMENTS ----- */
+
+/* CHANGE DISPLAY OF MAIN CONTENT */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* STYLING ELEMENTS OF MAIN CONTENT SEGMENTS / SERVICES PROVIDED */
 
 .services {
     margin-bottom: 20px;
@@ -93,9 +120,13 @@ p {
     color: #ffffff;
 }
 
+/* CHANGE DIMENSION OF IMAGES USED IN MAIN CONTENT SEGMENTS */
+
 .services img {
     max-height: 200px;
 }
+
+/* CHANGE MARGIN AND FONTSIZE OF H2 TAGS WITHIN MAIN SEGMENTS */
 
 .services h2 {
     margin-bottom: 20px;
@@ -103,7 +134,9 @@ p {
 }
 
 
-/* SIDE BAR ELEMENTS */
+/* ----- ASIDE / SIDE BAR ELEMENTS ----- */
+
+/* CHANGE STYLING OF SIDE BAR ELEMENTS */
 
 .benefits {
     margin-right: 20px;
@@ -116,15 +149,21 @@ p {
     background-color: #2589bd;
 }
 
+/* CHANGE MARGIN AND COLOR OF TEXT OF LISTED BENEFITS WITHIN SIDEBAR */
+
 .benefits-list {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* CHANGE H3 TAGS MARGIN AND ALIGNMENT WITHIN SIDEBAR */
+
 .benefits-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* CHANGE DISPLAY AND MARGINS OF IMAGES WITHIN SIDEBAR */
 
 .benefits-list img {
     display: block;
@@ -132,7 +171,9 @@ p {
     max-width: 150px;
 }
 
-/* FOOTER ELEMENTS */
+/* ----- FOOTER ELEMENTS ----- */
+
+/* CHANGE FOOTER STYLING ELEMENTS */
 
 .footer {
     padding: 30px;
@@ -140,6 +181,8 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* CHANGE FONT SIZE OF H2 TAGS WITHIN FOOTER */
 
 .footer h2 {
     font-size: 20px;
